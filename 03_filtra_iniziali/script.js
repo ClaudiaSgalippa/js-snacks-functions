@@ -8,7 +8,7 @@ let onlyLetterA = (value) => { //Funzione versione arrow
     let letterA = [];
     for (let i = 0; i < value.length; i++) {
         if (value[i][0] === "A") {
-        letterA.push(value[i]);
+            letterA.push(value[i]);
         }
     }
     console.log(letterA);
