@@ -6,7 +6,7 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 let onlyInitials = (value) => {  //Funzione versione arrow 
     let initials = [];
-    for (let i = 0, i < value.length; i++); {
+    for (let i = 0; i < value.length; i++) {
         initials.push(value[i][0]);
     }
      console.log(initials);
