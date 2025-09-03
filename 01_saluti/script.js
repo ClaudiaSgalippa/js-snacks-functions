@@ -4,8 +4,8 @@ const userName = 'Mario';
 
 // Dichiara la funzione qui.
 
-const saluto1 = (userName) => console.log(`Benvenuto ${userName}`);
-const saluto2 = (userName) => {
+const saluto1 = (userName) => console.log(`Benvenuto ${userName}`); //Funzione versione arrow compatta
+const saluto2 = (userName) => { //Funzione versione arrow 
     console.log(`Benvenuto ${userName}`);
 
 }
